@@ -1,12 +1,10 @@
-#include <GL/gl.h>
-#include <GL/glu.h>
-#include <GL/glut.h>
-#include <stdlib.h>
-#include <stdio.h>
 #include <windows.h>
+#include <stdio.h>
+#include<string.h>
+#include <GL/glut.h>
 #include <math.h>
-using namespace std;
-
+#define PI=3.14159265358979323846;
+void keyboard(unsigned char , int , int );
 
 float _moveA = 0.0f;
 float _moveB = 0.0f;
@@ -1516,15 +1514,45 @@ _moveC += 0.05;
 }
 
 
+
+
+
 int main(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
 
-  glutInitWindowSize(1500, 1000);
+      glutInitWindowSize(1500, 1000);
   glutCreateWindow("Transformation");
 
 
-    init();
+printf(" ///////////////////////////////////VILLAGE VIEW////////////////////////\n");
+printf("\n");
+printf("                |UNIVERSITY OF INFORMATION TECHNOLOGY & SCIENCE|\n");
+printf("\n");
+printf("  NAME:Nazmul Hasan Fahim\n");
+printf("\n");
+printf("  ID-1914551115\n");
+printf("\n");
+printf("  DEPARTMENT OF CSE\n")
+;printf("\n");
+printf("  SUBMITTED TO-\n");
+printf("\n");
+printf("  SALIM SHADMAN ANKUR\n");
+printf("\n");
+printf("  PROPA PUNAM\n");
+printf("\n");printf("\n");
+printf("  PRESS 'KEY UP' FOR DAY MOOD\n");
+printf("\n");
+printf("  PRESS 'KEY DOWN' FOR NIGHT MOOD\n");
+printf("\n");
+
+
+
+
+
+
+
+  init();
     glutSpecialFunc(SpecialInput);
 
 
